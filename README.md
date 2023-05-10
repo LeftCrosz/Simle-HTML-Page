@@ -1,2 +1,2 @@
-# Simle HTML Page
+# Simple HTML Page
  A Simple Website created for learning purpose
