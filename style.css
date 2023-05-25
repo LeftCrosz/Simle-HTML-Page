@@ -55,7 +55,7 @@
     width: 100%;
 }
 
-.content {
+.hero {
     width: 100%;
     position: absolute;
     top: 50%;
@@ -64,12 +64,12 @@
     color: white;
 }
 
-.content h1 {
+.hero h1 {
     font-size: 55px;
     margin-top: 50px;
 }
 
-.content p {
+.hero p {
     font-size: 29px;
 }
 
@@ -107,4 +107,26 @@ button:hover span{
 
 button:hover{
     border: none;
+}
+
+.content {
+    margin: 20px 25px;
+}
+
+.item {
+    height: 100px;
+    padding: 10px 20px;
+}
+
+.item img{
+    width: 50%;
+    float: right;
+}
+
+.item1-text  {
+    float: left;
+}
+
+.item-texts {
+    width: 40vw;
 }
