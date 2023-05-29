@@ -56,6 +56,11 @@
     text-align: right;
 }
 
+.column-right img {
+    width: 400px;
+    height: 600px;
+}
+
 footer {
     width: 100%;
     margin-top: 100px;
@@ -69,6 +74,34 @@ footer .footer-text {
     color: rgb(32, 32, 32);
     text-align: center;
 }
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+    padding: 0 100px;
+    background-color: rgba(252, 252, 74, 0.715);
+}
+
+.content-left {
+    background-color: rgba(234, 240, 157, 0.61);
+}
+
+.content-left .content-title {
+    font-family: 'Poppins';
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 50px;
+}
+
+.content-right object {
+    position: relative;
+    width: 350px;
+    height: 350px;
+}
+
 
 @media screen and (max-width: 768px) {
     .hero-container {
